@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class lb4 {
 
     public static void start(Scanner scanner) {
-        System.out.print("Enter number of people: ");
+        System.out.print("enter number of people: ");
         int n = scanner.nextInt();
-        System.out.print("Enter step size: ");
+        System.out.print("enter step size: ");
         int k = scanner.nextInt();
-        System.out.println("Last remaining person is at position: " + josephus(n, k));
+        System.out.println("last remaining person is at position: " + josephus(n, k));
     }
 
 

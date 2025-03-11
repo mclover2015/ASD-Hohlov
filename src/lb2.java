@@ -4,12 +4,12 @@ public class lb2 {
 
     public static void start(Scanner scanner) {
 
-        System.out.println("Enter the dimensions of the matrix (rows and columns):");
+        System.out.println("enter the dimensions of the matrix (rows and columns):");
         int rows = scanner.nextInt();
         int cols = scanner.nextInt();
         int[][] matrix = new int[rows][cols];
 
-        System.out.println("Enter the elements of the matrix:");
+        System.out.println("enter the elements of the matrix:");
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
@@ -32,6 +32,6 @@ public class lb2 {
             }
         }
 
-        System.out.println("Number of rows without negative numbers: " + count);
+        System.out.println("number of rows without negative numbers: " + count);
     }
 }

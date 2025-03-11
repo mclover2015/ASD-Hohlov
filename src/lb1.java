@@ -4,10 +4,10 @@ public class lb1 {
 
     public static void start(Scanner scanner) {
 
-        System.out.println("Enter the number of elements in the array:");
+        System.out.println("enter the number of elements in the array:");
         int n = scanner.nextInt();
         int[] arr = new int[n];
-        System.out.println("Enter the elements:");
+        System.out.println("enter the elements:");
 
 
         for (int i = 0; i < n; i++) {
