@@ -12,7 +12,7 @@ class Node {
 
 public class lb5 {
 
-    public static Node duplicateOdd(Node head) {
+    public static Node dupOdd(Node head) {
         Node current = head;
 
         while (current != null) {
@@ -65,7 +65,7 @@ public class lb5 {
         System.out.println("Original list:");
         printList(n1);
 
-        Node newHead = duplicateOdd(n1);
+        Node newHead = dupOdd(n1);
 
         System.out.println("Modified list:");
         printList(newHead);

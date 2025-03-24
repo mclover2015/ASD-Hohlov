@@ -13,6 +13,7 @@ public class Main {
             System.out.println("3. lb3");
             System.out.println("4. lb4");
             System.out.println("5. lb5");
+            System.out.println("6. lb6");
             System.out.println("0. exit");
 
             int choice = scanner.nextInt();
@@ -38,6 +39,9 @@ public class Main {
                 case 5:
                     System.out.println("\n5...");
                     lb5.start(scanner);
+                case 6:
+                    System.out.println("\n6...");
+                    lb6.start(scanner);
                 case 0:
                     System.out.println("exiting program...");
                     scanner.close();
