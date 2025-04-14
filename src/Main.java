@@ -42,6 +42,9 @@ public class Main {
                 case 6:
                     System.out.println("\n6...");
                     lb6.start(scanner);
+                case 8:
+                    System.out.println("\n8...");
+                    lb8.start(scanner);
                 case 0:
                     System.out.println("exiting program...");
                     scanner.close();
